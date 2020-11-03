@@ -2,7 +2,7 @@
     margin-top: 20px;
     border-radius: 30px;
     display: grid;
-    height: auto;
+    height: 200px;
     margin-left: 10%;
     margin-right: 10%;
     grid-template-columns: 1fr 2fr ;

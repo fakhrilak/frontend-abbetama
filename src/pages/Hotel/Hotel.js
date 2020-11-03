@@ -5,7 +5,10 @@ import { faLocationArrow, faMoneyBill } from "@fortawesome/free-solid-svg-icons"
 import "./Hotel.css"
 const Hotel = () => {
     const [lokasi,setLokasi]=useState('')
-    var data = Data.filter(e => e.lokasi === lokasi); 
+    var data = Data.filter(e => e.lokasi === lokasi);
+    if(lokasi === ""){
+        data = Data
+    }
     return (
         <div style={{paddingTop:140}}>
             <div>
