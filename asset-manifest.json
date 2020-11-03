@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/frontend-abbetama/static/css/main.76e019dd.chunk.css",
-    "main.js": "/frontend-abbetama/static/js/main.e86ac261.chunk.js",
-    "main.js.map": "/frontend-abbetama/static/js/main.e86ac261.chunk.js.map",
+    "main.js": "/frontend-abbetama/static/js/main.db9d132a.chunk.js",
+    "main.js.map": "/frontend-abbetama/static/js/main.db9d132a.chunk.js.map",
     "runtime-main.js": "/frontend-abbetama/static/js/runtime-main.98566e9e.js",
     "runtime-main.js.map": "/frontend-abbetama/static/js/runtime-main.98566e9e.js.map",
     "static/js/2.245d62a2.chunk.js": "/frontend-abbetama/static/js/2.245d62a2.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.98566e9e.js",
     "static/js/2.245d62a2.chunk.js",
     "static/css/main.76e019dd.chunk.css",
-    "static/js/main.e86ac261.chunk.js"
+    "static/js/main.db9d132a.chunk.js"
   ]
 }
