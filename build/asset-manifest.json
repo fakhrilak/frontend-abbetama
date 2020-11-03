@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/frontend-abbetama/static/css/main.45fccd52.chunk.css",
+    "main.js": "/frontend-abbetama/static/js/main.f36415cb.chunk.js",
+    "main.js.map": "/frontend-abbetama/static/js/main.f36415cb.chunk.js.map",
+    "runtime-main.js": "/frontend-abbetama/static/js/runtime-main.25355d6b.js",
+    "runtime-main.js.map": "/frontend-abbetama/static/js/runtime-main.25355d6b.js.map",
+    "static/js/2.67c6777d.chunk.js": "/frontend-abbetama/static/js/2.67c6777d.chunk.js",
+    "static/js/2.67c6777d.chunk.js.map": "/frontend-abbetama/static/js/2.67c6777d.chunk.js.map",
+    "static/js/3.a6888bb0.chunk.js": "/frontend-abbetama/static/js/3.a6888bb0.chunk.js",
+    "static/js/3.a6888bb0.chunk.js.map": "/frontend-abbetama/static/js/3.a6888bb0.chunk.js.map",
+    "index.html": "/frontend-abbetama/index.html",
+    "static/css/main.45fccd52.chunk.css.map": "/frontend-abbetama/static/css/main.45fccd52.chunk.css.map",
+    "static/js/2.67c6777d.chunk.js.LICENSE.txt": "/frontend-abbetama/static/js/2.67c6777d.chunk.js.LICENSE.txt",
+    "static/media/1.062e76a7.png": "/frontend-abbetama/static/media/1.062e76a7.png",
+    "static/media/1.b032d801.jpg": "/frontend-abbetama/static/media/1.b032d801.jpg",
+    "static/media/2.22b37750.jpg": "/frontend-abbetama/static/media/2.22b37750.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25355d6b.js",
+    "static/js/2.67c6777d.chunk.js",
+    "static/css/main.45fccd52.chunk.css",
+    "static/js/main.f36415cb.chunk.js"
+  ]
+}

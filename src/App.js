@@ -32,7 +32,9 @@ function App() {
             <Route exact path="/login">
                   <Login setShow={setShow}/>
             </Route> 
-            <Route exact path="/register" component={Register}/>
+            <Route exact path="/register">
+                  <Register setShow={setShow}/>
+            </Route>
             <Route exact path="/profile" component={Profile}/>
             <Route exact path="/paket-wisata" component={PWisata}/>
             <Route exact path="/transport" component={Transport}/>
