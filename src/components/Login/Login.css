@@ -1,0 +1,41 @@
+.form-input{
+    background-color:white;
+    width: 400px;
+    position: absolute;
+    top:200px;
+    right: 40px;
+    opacity: 0.7;
+    border-radius: 30px;
+}
+
+.form-input input{
+    width: 300px;
+}
+
+.wrapper-form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wrapper-form input{
+    height: 30px;
+    border-radius: 10px;
+}
+.wrapper-form button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+.informasi{
+    display: grid;
+    grid-template-columns: 2fr 1.2fr ;
+    gap: 0.5rem;
+}
+.p-right{
+    text-align: left;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.p-left{
+    text-align: right;
+}
