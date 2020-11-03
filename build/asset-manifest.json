@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/frontend-abbetama/static/css/main.86ce44c2.chunk.css",
-    "main.js": "/frontend-abbetama/static/js/main.21e4061e.chunk.js",
-    "main.js.map": "/frontend-abbetama/static/js/main.21e4061e.chunk.js.map",
-    "runtime-main.js": "/frontend-abbetama/static/js/runtime-main.a46a0414.js",
-    "runtime-main.js.map": "/frontend-abbetama/static/js/runtime-main.a46a0414.js.map",
-    "static/js/2.e9947336.chunk.js": "/frontend-abbetama/static/js/2.e9947336.chunk.js",
-    "static/js/2.e9947336.chunk.js.map": "/frontend-abbetama/static/js/2.e9947336.chunk.js.map",
-    "static/js/3.689c2900.chunk.js": "/frontend-abbetama/static/js/3.689c2900.chunk.js",
-    "static/js/3.689c2900.chunk.js.map": "/frontend-abbetama/static/js/3.689c2900.chunk.js.map",
+    "main.css": "/frontend-abbetama/static/css/main.76e019dd.chunk.css",
+    "main.js": "/frontend-abbetama/static/js/main.e86ac261.chunk.js",
+    "main.js.map": "/frontend-abbetama/static/js/main.e86ac261.chunk.js.map",
+    "runtime-main.js": "/frontend-abbetama/static/js/runtime-main.98566e9e.js",
+    "runtime-main.js.map": "/frontend-abbetama/static/js/runtime-main.98566e9e.js.map",
+    "static/js/2.245d62a2.chunk.js": "/frontend-abbetama/static/js/2.245d62a2.chunk.js",
+    "static/js/2.245d62a2.chunk.js.map": "/frontend-abbetama/static/js/2.245d62a2.chunk.js.map",
+    "static/js/3.6b15db7a.chunk.js": "/frontend-abbetama/static/js/3.6b15db7a.chunk.js",
+    "static/js/3.6b15db7a.chunk.js.map": "/frontend-abbetama/static/js/3.6b15db7a.chunk.js.map",
     "index.html": "/frontend-abbetama/index.html",
-    "static/css/main.86ce44c2.chunk.css.map": "/frontend-abbetama/static/css/main.86ce44c2.chunk.css.map",
-    "static/js/2.e9947336.chunk.js.LICENSE.txt": "/frontend-abbetama/static/js/2.e9947336.chunk.js.LICENSE.txt",
+    "static/css/main.76e019dd.chunk.css.map": "/frontend-abbetama/static/css/main.76e019dd.chunk.css.map",
+    "static/js/2.245d62a2.chunk.js.LICENSE.txt": "/frontend-abbetama/static/js/2.245d62a2.chunk.js.LICENSE.txt",
     "static/media/1.062e76a7.png": "/frontend-abbetama/static/media/1.062e76a7.png",
     "static/media/1.b032d801.jpg": "/frontend-abbetama/static/media/1.b032d801.jpg",
-    "static/media/2.22b37750.jpg": "/frontend-abbetama/static/media/2.22b37750.jpg"
+    "static/media/2.22b37750.jpg": "/frontend-abbetama/static/media/2.22b37750.jpg",
+    "static/media/alpart.fc8b70ae.jpg": "/frontend-abbetama/static/media/alpart.fc8b70ae.jpg",
+    "static/media/makkah.76327c12.jpeg": "/frontend-abbetama/static/media/makkah.76327c12.jpeg",
+    "static/media/singapur.b14851de.jpeg": "/frontend-abbetama/static/media/singapur.b14851de.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a46a0414.js",
-    "static/js/2.e9947336.chunk.js",
-    "static/css/main.86ce44c2.chunk.css",
-    "static/js/main.21e4061e.chunk.js"
+    "static/js/runtime-main.98566e9e.js",
+    "static/js/2.245d62a2.chunk.js",
+    "static/css/main.76e019dd.chunk.css",
+    "static/js/main.e86ac261.chunk.js"
   ]
 }

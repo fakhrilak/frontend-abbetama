@@ -7,6 +7,7 @@ import f3 from "../img/contents/3.jpeg"
 const Thumbnail = ({count,setCount}) => {
 
     let Gambar = [f1,f2,f3]
+    setTimeout(()=>{HandlePlus()},3000)
     const HandlePlus=()=>{
         if(count === Gambar.length-1)
             setCount(0)
