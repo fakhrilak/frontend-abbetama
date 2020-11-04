@@ -2,25 +2,32 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import "./Navbar.css"
 import logo from "../../components/img/navbar/1.png"
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook,faTwitter,faInstagram,faYoutube } from "@fortawesome/free-brands-svg-icons"
 const Navbar = ({setShow,show}) => {
     return (
-        <div style={{position:'fixed',width:'100%'}}>
+        <div style={{position:'fixed',width:'100%',backgroundImage:logo}}>
+            <ul>
+                <li className="icon-navbar"><FontAwesomeIcon icon={faFacebook}/></li>
+                <li className="icon-navbar"><FontAwesomeIcon icon={faTwitter}/></li>
+                <li className="icon-navbar"><FontAwesomeIcon icon={faInstagram}/></li>
+                <li className="icon-navbar"><FontAwesomeIcon icon={faYoutube}/></li>
+            </ul>
             <ul>
                 <li className="item-navbar"><Link to='/login'>
-                    <button onClick={()=>setShow(true)}>Login</button>
+                    <button onClick={()=>setShow(true)}>LOGIN</button>
                 </Link></li>
                 <li className="item-navbar"><Link to='/register'>
-                    <button onClick={()=>setShow(true)}>Register</button></Link></li>
-                <li className="item-navbar"><Link to='/reservasi'>Reservasi</Link></li>
-                <li className="item-navbar"><Link to='/blog'>Blog</Link></li>
-                <li className="item-navbar"><Link to='/event'>Event</Link></li>
-                <li className="item-navbar"><Link to='/transport'>Transport</Link></li>
-                <li className="item-navbar"><Link to='/paket-wisata'>Paket Wisata</Link></li>
-                <li className="item-navbar"><Link to='/profile'>Profile</Link></li>
-                <li className="item-navbar"><Link to='/hotel'>Hotel</Link></li>
-                <li className="item-navbar"><Link to='/'>Beranda</Link></li>
-                <li className="logo-navbar"><Link to='/'><img src={logo} style={{width:300}}/></Link></li>
+                    <button onClick={()=>setShow(true)}>REGISTER</button></Link></li>
+                <li className="item-navbar"><Link to='/reservasi'>RESERVASI</Link></li>
+                <li className="item-navbar"><Link to='/blog'>BLOG</Link></li>
+                <li className="item-navbar"><Link to='/event'>NEWS</Link></li>
+                <li className="item-navbar"><Link to='/transport'>TRANSPORT</Link></li>
+                <li className="item-navbar"><Link to='/paket-wisata'>PAKET WISATA</Link></li>
+                <li className="item-navbar"><Link to='/profile'>PROFILE</Link></li>
+                <li className="item-navbar"><Link to='/hotel'>HOTEL</Link></li>
+                <li className="item-navbar"><Link to='/'>BERANDA</Link></li>
+                <li className="logo-navbar"><Link to='/'><img src={logo} style={{width:250}}/></Link></li>
             </ul>           
         </div>
     )

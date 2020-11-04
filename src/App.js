@@ -10,6 +10,7 @@ import Transport from "./pages/Transport/Transport"
 import Event from "./pages/Event/Event"
 import Blog from "./pages/Blog/Blog"
 import Reservasi from "./pages/Reservasi/Reservasi"
+import Foother from "./components/Foother/Foother"
 import './App.css';
 import {
   HashRouter as Router,
@@ -42,8 +43,7 @@ function App() {
             <Route exact path="/blog" component={Blog}/>
             <Route exact path="/reservasi" component={Reservasi}/>
          </div>
-
-     </Router>
+     </Router> 
     </div>
   );
 }

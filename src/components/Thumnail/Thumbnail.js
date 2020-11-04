@@ -1,12 +1,10 @@
 import React from 'react'
-import f1 from "../img/contents/1.jpg"
-import f2 from "../img/contents/2.jpg"
-import f3 from "../img/contents/3.jpeg"
+import {Gambar} from "./DataThumbnail"
 
 
 const Thumbnail = ({count,setCount}) => {
 
-    let Gambar = [f1,f2,f3]
+
     setTimeout(()=>{HandlePlus()},3000)
     const HandlePlus=()=>{
         if(count === Gambar.length-1)
@@ -23,9 +21,9 @@ const Thumbnail = ({count,setCount}) => {
         }
     }
     return (
-        <div>
+        <div className="continer-thumbnail">
             
-            <img src={Gambar[count]} style={{width:'100%',height: 400}}/>
+            <img src={Gambar[count]} style={{width:'100%',height: 600}}/>
             <div className='slideShow'>    
                 <h1 className='slide-left'
                 onClick={()=>HandleMinus()}

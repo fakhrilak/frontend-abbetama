@@ -1,5 +1,5 @@
 import React from 'react'
-import background from '../img/contents/3.jpeg'
+import background from '../img/contents/WEBSITE ABBE/1.jpg'
 import logo from "../img/navbar/1.png"
 import {useHistory} from 'react-router-dom'
 const Register = ({setShow}) => {

@@ -1,3 +1,8 @@
 .App {
   text-align: center;
 }
+.foother{
+  left: 0;
+    bottom: 0;
+    width: 100%;
+}

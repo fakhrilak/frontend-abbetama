@@ -1,0 +1,39 @@
+.data-about p{
+    margin-left: 10%;
+    text-align: justify;
+    margin-right: 10%;
+    background-color: #3399ff;
+}
+.data-about img{
+    width: 90%;
+    height: 400px;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+.opasity{
+    position: absolute;
+    top: 160px;
+    left: 60%;
+}
+
+.icons{
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 70%;
+}
+
+.grid-about{
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 1rem;
+    margin-left: 5%;
+}
+
+.container-about{
+    background-color: #6eb6a6;
+}
+.grid-about p{
+    text-align: justify;
+}
