@@ -17,7 +17,7 @@ const Login = ({setShow}) => {
     return (
         <div>
            <div>
-               <img src={background} style={{width:'100%'}}/>
+               <img src={background} style={{width:'100%',height:750,opacity:0.7}}/>
            </div> 
            <div className="form-input">
                 <div className="wrapper-form">

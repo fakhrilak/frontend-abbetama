@@ -1,31 +1,25 @@
-.wrapper{
-
+.container-pwisata img{
+    width: 70%;
+    height: 600px;
 }
-
-.judul{
-    background-color: #3399ff;
-    width: 26.5%;
-    margin-left: 8%;
-    height: 40px;
-    font-weight: bolder;
-    font-size: 30px;
+.text-pwisata{
+    position: absolute;
+    top: 600px;
+    left: 15%;
     color: white;
-    border-radius: 30px 30px 0px 0px;
+    background-color: black;
+    width: 70%;
+    height: 140px;
+    opacity: 0.7;
 }
-.flex-display img{
-    width: 400px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    border-radius: 0px 0px 60px 60px ;
-    height: 300px;
+.next{
+    position: absolute;
+    top: 520px;
+    left: 78.3%;
+    color: WHITE;
 }
-.flex-display p{
-    text-align: justify;
-}
-.flex-display{
-    margin-left: 8%;
-    max-width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 2fr  ;
-    gap: 1rem;;
+.next h3{
+    padding-left: 10px;
+    padding-right: 20px;
+    cursor: pointer;
 }

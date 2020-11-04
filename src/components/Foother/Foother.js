@@ -9,10 +9,14 @@ import airasis from "../img/navbar/airasia.png"
 import garuda from "../img/navbar/garuda.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faWhatsapp} from "@fortawesome/free-brands-svg-icons"
+import {Gambar} from "../Thumnail/DataThumbnail"
 const Foother = () => {
     return (
         <div className="Container-foother">
-            <div className="grid-foother">                
+            <div style={{position:'absolute'}}>
+                 <img src={Gambar[4]} style={{width:'100%',height:165,objectFit:'cover'}}/>
+            </div>
+            <div className="grid-foother">                           
                 <div className="alamat-foother">
                     <h2>PT. AB MANDIRI INVESTAMA</h2>
                     <p>Jl Seturan No 13b, CaturTunggal
@@ -22,6 +26,7 @@ const Foother = () => {
                     <br/><FontAwesomeIcon icon ={faWhatsapp}/> 0274-999999999</p>
                 </div>
                 <div className="Trans-method">
+                    <h2>PARTNER</h2>
                     <div className="grid-right">
                         <div style={{textAlign:'right'}}>
                             <img src={lion} style={{width:50}}/>
@@ -35,6 +40,7 @@ const Foother = () => {
                     </div>
                 </div>
                 <div className="Trans-method">
+                    <h2>TRANSAKSI METHOD</h2>
                     <div className="grid-right">
                             <div style={{textAlign:'right'}}>
                                 <img src={bca} style={{width:90}}/>

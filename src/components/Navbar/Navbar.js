@@ -6,12 +6,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook,faTwitter,faInstagram,faYoutube } from "@fortawesome/free-brands-svg-icons"
 const Navbar = ({setShow,show}) => {
     return (
-        <div style={{position:'fixed',width:'100%',backgroundImage:logo}}>
+        <div className="container-navbar">
             <ul>
                 <li className="icon-navbar"><FontAwesomeIcon icon={faFacebook}/></li>
                 <li className="icon-navbar"><FontAwesomeIcon icon={faTwitter}/></li>
                 <li className="icon-navbar"><FontAwesomeIcon icon={faInstagram}/></li>
                 <li className="icon-navbar"><FontAwesomeIcon icon={faYoutube}/></li>
+                <li className="logo-navbar"><Link to='/'><img src={logo} style={{width:300}}/></Link></li>
             </ul>
             <ul>
                 <li className="item-navbar"><Link to='/login'>
@@ -27,7 +28,6 @@ const Navbar = ({setShow,show}) => {
                 <li className="item-navbar"><Link to='/profile'>PROFILE</Link></li>
                 <li className="item-navbar"><Link to='/hotel'>HOTEL</Link></li>
                 <li className="item-navbar"><Link to='/'>BERANDA</Link></li>
-                <li className="logo-navbar"><Link to='/'><img src={logo} style={{width:250}}/></Link></li>
             </ul>           
         </div>
     )
