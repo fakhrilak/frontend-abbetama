@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/frontend-abbetama/static/css/main.fa7993cf.chunk.css",
-    "main.js": "/frontend-abbetama/static/js/main.22a6bafa.chunk.js",
-    "main.js.map": "/frontend-abbetama/static/js/main.22a6bafa.chunk.js.map",
+    "main.css": "/frontend-abbetama/static/css/main.732539ab.chunk.css",
+    "main.js": "/frontend-abbetama/static/js/main.1bdb0d8b.chunk.js",
+    "main.js.map": "/frontend-abbetama/static/js/main.1bdb0d8b.chunk.js.map",
     "runtime-main.js": "/frontend-abbetama/static/js/runtime-main.8f7659fa.js",
     "runtime-main.js.map": "/frontend-abbetama/static/js/runtime-main.8f7659fa.js.map",
-    "static/js/2.4cd881ea.chunk.js": "/frontend-abbetama/static/js/2.4cd881ea.chunk.js",
-    "static/js/2.4cd881ea.chunk.js.map": "/frontend-abbetama/static/js/2.4cd881ea.chunk.js.map",
+    "static/js/2.d177e3c1.chunk.js": "/frontend-abbetama/static/js/2.d177e3c1.chunk.js",
+    "static/js/2.d177e3c1.chunk.js.map": "/frontend-abbetama/static/js/2.d177e3c1.chunk.js.map",
     "static/js/3.2396a88b.chunk.js": "/frontend-abbetama/static/js/3.2396a88b.chunk.js",
     "static/js/3.2396a88b.chunk.js.map": "/frontend-abbetama/static/js/3.2396a88b.chunk.js.map",
     "index.html": "/frontend-abbetama/index.html",
-    "static/css/main.fa7993cf.chunk.css.map": "/frontend-abbetama/static/css/main.fa7993cf.chunk.css.map",
-    "static/js/2.4cd881ea.chunk.js.LICENSE.txt": "/frontend-abbetama/static/js/2.4cd881ea.chunk.js.LICENSE.txt",
+    "static/css/main.732539ab.chunk.css.map": "/frontend-abbetama/static/css/main.732539ab.chunk.css.map",
+    "static/js/2.d177e3c1.chunk.js.LICENSE.txt": "/frontend-abbetama/static/js/2.d177e3c1.chunk.js.LICENSE.txt",
     "static/media/1.647899ae.jpg": "/frontend-abbetama/static/media/1.647899ae.jpg",
     "static/media/1.65e6eccb.jpg": "/frontend-abbetama/static/media/1.65e6eccb.jpg",
     "static/media/1.6c7e9684.png": "/frontend-abbetama/static/media/1.6c7e9684.png",
@@ -39,14 +39,13 @@
     "static/media/bri.eb8064b5.png": "/frontend-abbetama/static/media/bri.eb8064b5.png",
     "static/media/garuda.26f0425b.png": "/frontend-abbetama/static/media/garuda.26f0425b.png",
     "static/media/lionparcel.3eb04c8c.png": "/frontend-abbetama/static/media/lionparcel.3eb04c8c.png",
-    "static/media/makkah.76327c12.jpeg": "/frontend-abbetama/static/media/makkah.76327c12.jpeg",
-    "static/media/paypal.fbfceae8.png": "/frontend-abbetama/static/media/paypal.fbfceae8.png",
-    "static/media/singapur.b14851de.jpeg": "/frontend-abbetama/static/media/singapur.b14851de.jpeg"
+    "static/media/makkah.53377c18.png": "/frontend-abbetama/static/media/makkah.53377c18.png",
+    "static/media/paypal.fbfceae8.png": "/frontend-abbetama/static/media/paypal.fbfceae8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8f7659fa.js",
-    "static/js/2.4cd881ea.chunk.js",
-    "static/css/main.fa7993cf.chunk.css",
-    "static/js/main.22a6bafa.chunk.js"
+    "static/js/2.d177e3c1.chunk.js",
+    "static/css/main.732539ab.chunk.css",
+    "static/js/main.1bdb0d8b.chunk.js"
   ]
 }
