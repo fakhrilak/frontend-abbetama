@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/frontend-abbetama/static/css/main.732539ab.chunk.css",
-    "main.js": "/frontend-abbetama/static/js/main.1bdb0d8b.chunk.js",
-    "main.js.map": "/frontend-abbetama/static/js/main.1bdb0d8b.chunk.js.map",
+    "main.css": "/frontend-abbetama/static/css/main.a621fd7a.chunk.css",
+    "main.js": "/frontend-abbetama/static/js/main.ea59d779.chunk.js",
+    "main.js.map": "/frontend-abbetama/static/js/main.ea59d779.chunk.js.map",
     "runtime-main.js": "/frontend-abbetama/static/js/runtime-main.8f7659fa.js",
     "runtime-main.js.map": "/frontend-abbetama/static/js/runtime-main.8f7659fa.js.map",
     "static/js/2.d177e3c1.chunk.js": "/frontend-abbetama/static/js/2.d177e3c1.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2396a88b.chunk.js": "/frontend-abbetama/static/js/3.2396a88b.chunk.js",
     "static/js/3.2396a88b.chunk.js.map": "/frontend-abbetama/static/js/3.2396a88b.chunk.js.map",
     "index.html": "/frontend-abbetama/index.html",
-    "static/css/main.732539ab.chunk.css.map": "/frontend-abbetama/static/css/main.732539ab.chunk.css.map",
+    "static/css/main.a621fd7a.chunk.css.map": "/frontend-abbetama/static/css/main.a621fd7a.chunk.css.map",
     "static/js/2.d177e3c1.chunk.js.LICENSE.txt": "/frontend-abbetama/static/js/2.d177e3c1.chunk.js.LICENSE.txt",
     "static/media/1.647899ae.jpg": "/frontend-abbetama/static/media/1.647899ae.jpg",
     "static/media/1.65e6eccb.jpg": "/frontend-abbetama/static/media/1.65e6eccb.jpg",
@@ -19,14 +19,14 @@
     "static/media/11.6854676f.jpg": "/frontend-abbetama/static/media/11.6854676f.jpg",
     "static/media/12.ee2def22.jpg": "/frontend-abbetama/static/media/12.ee2def22.jpg",
     "static/media/13.f7734986.jpg": "/frontend-abbetama/static/media/13.f7734986.jpg",
-    "static/media/14.1d13f107.jpg": "/frontend-abbetama/static/media/14.1d13f107.jpg",
+    "static/media/14.0a8ea908.jpg": "/frontend-abbetama/static/media/14.0a8ea908.jpg",
     "static/media/15.a801299a.jpg": "/frontend-abbetama/static/media/15.a801299a.jpg",
     "static/media/16.77c201a0.jpg": "/frontend-abbetama/static/media/16.77c201a0.jpg",
     "static/media/17.6a40a9ed.jpg": "/frontend-abbetama/static/media/17.6a40a9ed.jpg",
     "static/media/18.b4df8905.jpg": "/frontend-abbetama/static/media/18.b4df8905.jpg",
     "static/media/2.2043cc7f.jpg": "/frontend-abbetama/static/media/2.2043cc7f.jpg",
     "static/media/2.22b37750.jpg": "/frontend-abbetama/static/media/2.22b37750.jpg",
-    "static/media/3.042d6da7.jpg": "/frontend-abbetama/static/media/3.042d6da7.jpg",
+    "static/media/3.de0bf9a7.jpg": "/frontend-abbetama/static/media/3.de0bf9a7.jpg",
     "static/media/4.e1a47a8a.jpg": "/frontend-abbetama/static/media/4.e1a47a8a.jpg",
     "static/media/5.9e7c1713.jpg": "/frontend-abbetama/static/media/5.9e7c1713.jpg",
     "static/media/6.4ea72006.jpg": "/frontend-abbetama/static/media/6.4ea72006.jpg",
@@ -45,7 +45,7 @@
   "entrypoints": [
     "static/js/runtime-main.8f7659fa.js",
     "static/js/2.d177e3c1.chunk.js",
-    "static/css/main.732539ab.chunk.css",
-    "static/js/main.1bdb0d8b.chunk.js"
+    "static/css/main.a621fd7a.chunk.css",
+    "static/js/main.ea59d779.chunk.js"
   ]
 }
