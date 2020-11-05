@@ -1,34 +1,59 @@
 import React, { useState } from 'react'
-import g1 from "../../components/img/contents/makkah.png"
-import g2 from "../../components/img/contents/WEBSITE ABBE/1.jpg"
 import './PWisata.css'
+import {DATA} from "./DataPwisata"
 const PWisata = () => {
+    const [formData, setFormData] = useState({
+        paket:"1"
+    })
     const [count,setCount]=useState(0)
-    const DATA = [
-        {
-            gambar:g1,
-            text:"PAKET RELIGI"
-        },
-        {
-            gambar:g2,
-            text:"PAKET TOUR AND TRAVEL"
-        }]
-    const HandleCount=()=>{
-        if(count === DATA.length-1){
+
+    const {paket} = formData
+    const HandlePlus=()=>{
+        if(count === DATA[paket].detail.length-1)
             setCount(0)
-        }else{
-            setCount(count+1)
+        else{
+            setCount(count + 1)
         }
     }
+    setTimeout(()=>{HandlePlus()},3000)
+    
+    const onChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
     return (
         <div style={{paddingTop:140}}> 
             <div className="container-pwisata">
                 <div className="container-header"/>
                 <div className="text-pwisata">
-                    <h1>{DATA[count].text}</h1>
+                <select
+                        name="paket"
+                        onChange={(e) => {
+                            onChange(e);
+                          }}
+                        >
+                        <option value="" disabled selected>SELECT PAKET</option>
+                            {DATA.map((buyer) => (
+                                <option value={buyer.id}>
+                                    {buyer.text}
+                                </option>
+                            ))} 
+                        </select>
+                </div>
+                <div>
+                    <h1>{DATA[paket].text}</h1>
                 </div>
                 <div className="gambar-pwisata">
-                    <img src={DATA[count].gambar}/>
+                    <img src={DATA[paket].detail[count].gambar}/>
+                </div>
+                <div className="container-grid-detail">
+                    <div className="grid-detail">
+                        {DATA[paket].detail.map((detail)=>(
+                            <div>
+                                <img src={detail.gambar}/>
+                            </div>
+                        ))}
+                    </div>
+
                 </div>
             </div>
         </div>
