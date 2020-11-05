@@ -1,11 +1,14 @@
 import React,{useState} from 'react'
 import g1 from "../../components/img/contents/WEBSITE ABBE/4.jpg"
 import "./Reservasi.css"
-import Calendar from 'react-calendar';
-import 'react-calendar/dist/Calendar.css';
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaBeer, FaCar } from 'react-icons/fa';
+import { faWolfPackBattalion, faTripadvisor, faAdversal } from "@fortawesome/free-brands-svg-icons"
 const Reservasi = () => {
 
-    const [value, onChange] = useState(new Date());
+    const [startDate, setStartDate] = useState(new Date());
     
     return (
         <div style={{paddingTop:140}}>
@@ -16,27 +19,27 @@ const Reservasi = () => {
                 <h1>Book Holiday Tickets Anytime Anywhare</h1>
             </div>
             <div>
-                <div>
-                    <div>
+                <div className="grid-reservasi">
+                    <div className="item-select">
                         <select>
-                            <option>Select Packet</option>
+                            <option>Packet</option>
                         </select>
                     </div>
-                    <div>
+                    <div className="item-select">
                         <select>
-                            <option>Select Wisata</option>
+                            <option>Tujuan</option>
                         </select>
                     </div>
-                    <div>
-                        <select>
-                            <option>Select </option>
-                        </select>
-                    </div>
-                    <div>
-                        <Calendar
-                            onChange={onChange}
-                            value={value}
+                    <div className="item-Input">
+                        <input
+                        placeholder="Banya Orang"
                         />
+                    </div>
+                    <div className="item-date">
+                        <DatePicker selected={startDate} onChange={date => setStartDate(date)} />
+                    </div>
+                    <div className="button-reservasi">
+                        <button>BOOKING!</button>
                     </div>
                 </div>
             </div>

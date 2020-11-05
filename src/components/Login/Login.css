@@ -16,6 +16,15 @@
     padding-bottom: 20px;
 }
 
+.text-tagline{
+    position: absolute;
+    top: 300px;
+    left:20%;
+    color: #083616;
+    text-decoration: underline;
+    font-size: larger;
+}
+
 .wrapper-form input{
     height: 30px;
     border-radius: 10px;

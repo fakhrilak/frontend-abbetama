@@ -47,6 +47,9 @@ const Login = ({setShow}) => {
                     <p className="p-right" onClick={()=>handlePushRegister()}>Daftar! </p>
                </div>
            </div>
+           <div className="text-tagline">
+               <h1>SMART EXPLORE FOR HOLIDAY</h1>
+           </div>
         </div>
     )
 }

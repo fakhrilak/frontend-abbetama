@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/frontend-abbetama/static/css/main.2412989d.chunk.css",
-    "main.js": "/frontend-abbetama/static/js/main.23a7f1fe.chunk.js",
-    "main.js.map": "/frontend-abbetama/static/js/main.23a7f1fe.chunk.js.map",
-    "runtime-main.js": "/frontend-abbetama/static/js/runtime-main.131aae7d.js",
-    "runtime-main.js.map": "/frontend-abbetama/static/js/runtime-main.131aae7d.js.map",
-    "static/js/2.24b25c39.chunk.js": "/frontend-abbetama/static/js/2.24b25c39.chunk.js",
-    "static/js/2.24b25c39.chunk.js.map": "/frontend-abbetama/static/js/2.24b25c39.chunk.js.map",
-    "static/js/3.899b10f5.chunk.js": "/frontend-abbetama/static/js/3.899b10f5.chunk.js",
-    "static/js/3.899b10f5.chunk.js.map": "/frontend-abbetama/static/js/3.899b10f5.chunk.js.map",
+    "main.css": "/frontend-abbetama/static/css/main.46fbf50b.chunk.css",
+    "main.js": "/frontend-abbetama/static/js/main.c5e7315e.chunk.js",
+    "main.js.map": "/frontend-abbetama/static/js/main.c5e7315e.chunk.js.map",
+    "runtime-main.js": "/frontend-abbetama/static/js/runtime-main.fcadc3da.js",
+    "runtime-main.js.map": "/frontend-abbetama/static/js/runtime-main.fcadc3da.js.map",
+    "static/css/2.8cebfa1f.chunk.css": "/frontend-abbetama/static/css/2.8cebfa1f.chunk.css",
+    "static/js/2.59d52ad2.chunk.js": "/frontend-abbetama/static/js/2.59d52ad2.chunk.js",
+    "static/js/2.59d52ad2.chunk.js.map": "/frontend-abbetama/static/js/2.59d52ad2.chunk.js.map",
+    "static/js/3.d0f9b18d.chunk.js": "/frontend-abbetama/static/js/3.d0f9b18d.chunk.js",
+    "static/js/3.d0f9b18d.chunk.js.map": "/frontend-abbetama/static/js/3.d0f9b18d.chunk.js.map",
     "index.html": "/frontend-abbetama/index.html",
-    "static/css/main.2412989d.chunk.css.map": "/frontend-abbetama/static/css/main.2412989d.chunk.css.map",
-    "static/js/2.24b25c39.chunk.js.LICENSE.txt": "/frontend-abbetama/static/js/2.24b25c39.chunk.js.LICENSE.txt",
+    "static/css/2.8cebfa1f.chunk.css.map": "/frontend-abbetama/static/css/2.8cebfa1f.chunk.css.map",
+    "static/css/main.46fbf50b.chunk.css.map": "/frontend-abbetama/static/css/main.46fbf50b.chunk.css.map",
+    "static/js/2.59d52ad2.chunk.js.LICENSE.txt": "/frontend-abbetama/static/js/2.59d52ad2.chunk.js.LICENSE.txt",
     "static/media/1.647899ae.jpg": "/frontend-abbetama/static/media/1.647899ae.jpg",
     "static/media/1.65e6eccb.jpg": "/frontend-abbetama/static/media/1.65e6eccb.jpg",
     "static/media/1.6c7e9684.png": "/frontend-abbetama/static/media/1.6c7e9684.png",
@@ -38,14 +40,15 @@
     "static/media/bca.519d4501.png": "/frontend-abbetama/static/media/bca.519d4501.png",
     "static/media/bri.eb8064b5.png": "/frontend-abbetama/static/media/bri.eb8064b5.png",
     "static/media/garuda.26f0425b.png": "/frontend-abbetama/static/media/garuda.26f0425b.png",
-    "static/media/lionparcel.3eb04c8c.png": "/frontend-abbetama/static/media/lionparcel.3eb04c8c.png",
+    "static/media/lionparcel.9757c597.png": "/frontend-abbetama/static/media/lionparcel.9757c597.png",
     "static/media/makkah.53377c18.png": "/frontend-abbetama/static/media/makkah.53377c18.png",
     "static/media/paypal.fbfceae8.png": "/frontend-abbetama/static/media/paypal.fbfceae8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.131aae7d.js",
-    "static/js/2.24b25c39.chunk.js",
-    "static/css/main.2412989d.chunk.css",
-    "static/js/main.23a7f1fe.chunk.js"
+    "static/js/runtime-main.fcadc3da.js",
+    "static/css/2.8cebfa1f.chunk.css",
+    "static/js/2.59d52ad2.chunk.js",
+    "static/css/main.46fbf50b.chunk.css",
+    "static/js/main.c5e7315e.chunk.js"
   ]
 }

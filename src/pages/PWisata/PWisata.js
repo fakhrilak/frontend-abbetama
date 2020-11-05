@@ -22,6 +22,7 @@ const PWisata = () => {
     
     const onChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
+        setShow(false)
     };
     const [A,setA]=useState(0)
     const HandleOpendetail=(id)=>{
@@ -39,7 +40,7 @@ const PWisata = () => {
                             onChange(e);
                           }}
                         >
-                        <option value="" disabled selected>SELECT PAKET</option>
+                        <option value="" disabled selected>PILIH PAKET</option>
                             {DATA.map((buyer) => (
                                 <option value={buyer.id}>
                                     {buyer.text}

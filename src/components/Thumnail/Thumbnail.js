@@ -25,6 +25,9 @@ const Thumbnail = ({count,setCount}) => {
             
             <img src={Gambar[count].gambar} style={{width:'100%',height: 600}}/>
             <h1 className="text-gambar"> {Gambar[count].text}</h1>
+            <div className="text-caption">
+                <p > {Gambar[count].caption}</p>
+            </div>
             <div className='slideShow'>    
                 <h1 className='slide-left'
                 onClick={()=>HandleMinus()}

@@ -1,9 +1,61 @@
 .capion-reservasi{
     position: absolute;
-    top:300px;
+    top:200px;
     z-index: 1;
     right: 50px;
-    color: white;
+    color: #073a17;
     font-family: fantasy;
     text-decoration: underline;
+    color: #073a17;
+}
+.grid-reservasi{
+    position: absolute;
+    width: 30%;
+    top: 300px;
+    background-color: #073a17;
+    right: 50px;
+    border-radius: 30px;
+    color: #073a17;
+}
+.item-select{
+    margin: 20px;
+}
+.item-select select{
+    width: 70%;
+    height: 40px;
+    color: #073a17;
+    border-radius: 10px;
+    border: none;
+}
+.item-Input{
+    margin: 20px;
+    color: #073a17;
+}
+.item-Input input{
+    width: 68%;
+    height: 30px;
+    color: #073a17;
+    border-radius: 10px;
+    border: none;
+}
+.item-date input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    color: #073a17;
+    border: none;
+    text-align: center;
+}
+.button-reservasi{
+    margin: 30px;
+}
+.button-reservasi button{
+    width: 140px;
+    height: 40px;
+    color: #073a17;
+    background-color: white;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
 }

@@ -54,6 +54,9 @@ const Register = ({setShow}) => {
                     <p className="p-right" onClick={()=>handlePushLogin()}>Masuk! </p>
                 </div>
             </div>
+            <div className="text-tagline">
+               <h1>SMART EXPLORE FOR HOLIDAY</h1>
+           </div>
      </div>
     )
 }

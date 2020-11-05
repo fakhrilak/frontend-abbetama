@@ -19,41 +19,51 @@ import g18 from "../img/contents/WEBSITE ABBE/18.jpg"
 export const Gambar =[
     {
         gambar:g1,
-        text: "ADVENTURE"
+        text: "ADVENTURE",
+        caption: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
         gambar:g2,
-        text: "FOTO TRIP"
+        text: "FOTO TRIP",
+        caption: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
         gambar: g3,
-        text:"CORPORATE GATHERING"
+        text:"CORPORATE GATHERING",
+        caption: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
         gambar: g4,
-        text: "STUDY TOUR"
+        text: "STUDY TOUR",
+        caption: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
         gambar: g5,
-        text:"OUTBOUND"
+        text:"OUTBOUND",
+        caption: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
         gambar:g8,
-        text:"MEETING"
+        text:"MEETING",
+        caption: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
         gambar:g10,
-        text:"OVERLAND JAWA BALI"
+        text:"OVERLAND JAWA BALI",
+        caption: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
         gambar:g12,
-        text: "FREE EASSY"
+        text: "FREE EASSY",
+        caption: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
         gambar:g14,
-        text:"REQUEST TOUR"
+        text:"REQUEST TOUR",
+        caption: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
         gambar:g17,
-        text:"SEWA MOBIL"
+        text:"SEWA MOBIL",
+        caption: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     }]

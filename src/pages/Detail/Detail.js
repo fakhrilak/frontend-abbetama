@@ -15,7 +15,7 @@ const Detail = ({paket,detail,setShow,setCount}) => {
                 <img src={DATA[paket].detail[detail].gambar} onClick={()=>Handleset()}/>
             </div> 
             <div style={{textAlign:'justify',paddingTop:20}}>
-                <p>{DATA[paket].detail[detail].text}</p>
+                <p style={{marginLeft:100,marginRight:100}}>{DATA[paket].detail[detail].text}</p>
             </div>      
         </div>
     )
