@@ -24,19 +24,19 @@ export const DATA = [
             {
                 id:1,
                 gambar:g16,
-                lokasi:"yogyakarta",
+                lokasi:"UMROH",
                 text:"coba coba",
             },
             {
                 id:2,
                 gambar:g15,
-                lokasi:"yogyakarta",
+                lokasi:"ZIARA GOA MARIA",
                 text:"coba coba"
             },
             {
                 id:3,
                 gambar:g14,
-                lokasi:"jakarta",
+                lokasi:"VIHARA",
                 text:"coba coba"
             }
         ]
@@ -49,37 +49,19 @@ export const DATA = [
             {
                 id:1,
                 gambar:g13,
-                lokasi:"yogyakarta",
+                lokasi:"YOGYAKARTA",
                 text:"coba coba",
             },
             {
                 id:2,
                 gambar:g12,
-                lokasi:"yogyakarta",
+                lokasi:"BALI",
                 text:"coba coba"
             },
             {
                 id:3,
                 gambar:g11,
-                lokasi:"jakarta",
-                text:"coba coba",
-            },
-            {
-                id:1,
-                gambar:g5,
-                lokasi:"yogyakarta",
-                text:"coba coba",
-            },
-            {
-                id:2,
-                gambar:g6,
-                lokasi:"yogyakarta",
-                text:"coba coba"
-            },
-            {
-                id:3,
-                gambar:g7,
-                lokasi:"jakarta",
+                lokasi:"JAKARTA",
                 text:"coba coba",
             }
         ]
@@ -92,19 +74,19 @@ export const DATA = [
             {
                 id:1,
                 gambar:g10,
-                lokasi:"yogyakarta",
+                lokasi:"SINGAPURA",
                 text:"coba coba",
             },
             {
                 id:2,
                 gambar:g9,
-                lokasi:"yogyakarta",
+                lokasi:"HONKONG",
                 text:"coba coba"
             },
             {
                 id:3,
                 gambar:g8,
-                lokasi:"jakarta",
+                lokasi:"MALAYSIA",
                 text:"coba coba",
             }]
     }]

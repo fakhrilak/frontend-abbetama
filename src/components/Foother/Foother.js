@@ -14,22 +14,25 @@ const Foother = () => {
     return (
         <div className="Container-foother">
             <div style={{position:'absolute'}}>
-                 <img src={Gambar[4].gambar} style={{width:'100%',height:165,objectFit:'cover'}}/>
+                 <img src={Gambar[3].gambar} style={{width:'100%',height:110,objectFit:'cover',opacity:0.7}}/>
             </div>
             <div className="grid-foother">                           
                 <div className="alamat-foother">
                     <h2>PT. AB MANDIRI INVESTAMA</h2>
-                    <p>Jl Seturan No 13b, CaturTunggal
-                    <br/>Depok, Sleman
-                    <br/>Yogyakarta - 55281
-                    <br/><FontAwesomeIcon icon={faWhatsapp}/> 085281814883
-                    <br/><FontAwesomeIcon icon ={faWhatsapp}/> 0274-999999999</p>
+                    <div style={{position:'absolute',top:35}}>
+                        <p>Jl Seturan No 13b, CaturTunggal
+                        <br/>Depok, Sleman
+                        <br/>Yogyakarta - 55281
+                        <br/><FontAwesomeIcon icon={faWhatsapp}/> 085281814883
+                        <br/><FontAwesomeIcon icon ={faWhatsapp}/> 0274-999999999</p>
+                    </div>
+                    
                 </div>
                 <div className="Trans-method">
                     <h2>PARTNER</h2>
                     <div className="grid-right">
                         <div style={{textAlign:'right'}}>
-                            <img src={lion} style={{width:50}}/>
+                            <img src={lion} style={{width:70}}/>
                         </div>
                         <div>
                             <img src={airasis} style={{width:90}}/>
@@ -40,7 +43,7 @@ const Foother = () => {
                     </div>
                 </div>
                 <div className="Trans-method">
-                    <h2>TRANSAKSI METHOD</h2>
+                    <h2>PAYMENT METHOD</h2>
                     <div className="grid-right">
                             <div style={{textAlign:'right'}}>
                                 <img src={bca} style={{width:90}}/>

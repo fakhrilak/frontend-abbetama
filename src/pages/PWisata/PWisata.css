@@ -50,3 +50,12 @@
     width: 400px;
     height: 400px;
 }
+.details{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.caption {
+    display: block;
+    font-size: 20px;
+    font-weight: bolder;
+}

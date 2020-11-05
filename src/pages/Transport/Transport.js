@@ -3,7 +3,7 @@ import{Data} from "./DataTransport"
 import './Transport.css'
 const Transport = () => {
     return (
-        <div style={{paddingTop:140}}>
+        <div style={{paddingTop:140,paddingBottom:140}}>
             <div className="header-transport"/>
             <div style={{marginBottom:'20px'}}>
                 <div className="grid-transaport">

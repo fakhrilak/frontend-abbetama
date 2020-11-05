@@ -36,6 +36,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0.2rem;
+    position: absolute;
+    top:60px;
+    padding-left: 40px;
 }
 .grid-right img{
     width: 70px;

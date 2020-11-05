@@ -8,10 +8,10 @@ const Navbar = ({setShow,show}) => {
     return (
         <div className="container-navbar">
             <ul>
-                <li className="icon-navbar"><FontAwesomeIcon icon={faFacebook}/></li>
-                <li className="icon-navbar"><FontAwesomeIcon icon={faTwitter}/></li>
-                <li className="icon-navbar"><FontAwesomeIcon icon={faInstagram}/></li>
-                <li className="icon-navbar"><FontAwesomeIcon icon={faYoutube}/></li>
+                <li className="icon-navbar"><a href="https://www.facebook.com/assyroh.kaffah/" target="_blank"><FontAwesomeIcon icon={faFacebook}/></a></li>
+                <li className="icon-navbar"><a href="https://twitter.com/FakhrilAK/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a></li>
+                <li className="icon-navbar"><a href="https://www.instagram.com/abbetama_tourtravel/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a></li>
+                <li className="icon-navbar"><a href="https://www.youtube.com/feed/my_videos/" target="_blank"><FontAwesomeIcon icon={faYoutube}/></a></li>
                 <li className="logo-navbar"><Link to='/'><img src={logo} style={{width:300}}/></Link></li>
             </ul>
             <ul>
