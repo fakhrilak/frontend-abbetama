@@ -1,6 +1,6 @@
 .header-hotel{
     width: 94%;
-    background-color: #3399ff;
+    background-color: white;
     margin-left: 3%;
     height: 40px;
     border-radius: 10px;
@@ -12,9 +12,9 @@
 .select-lokasi select{
     border-radius: 10px;
     height: 40px;
-    background-color: #3399ff;
+    background-color: white;
     border: none;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: large;
 }
@@ -63,7 +63,7 @@
 .grid-card-bawah{
     max-width: 78%;
     margin-left: 11%;
-    background-color: #3399ff;
+    background-color: black;
     color:white;
     font-size: large;
     font-weight: bolder;

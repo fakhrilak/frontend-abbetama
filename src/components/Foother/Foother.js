@@ -14,7 +14,7 @@ const Foother = () => {
     return (
         <div className="Container-foother">
             <div style={{position:'absolute'}}>
-                 <img src={Gambar[4]} style={{width:'100%',height:165,objectFit:'cover'}}/>
+                 <img src={Gambar[4].gambar} style={{width:'100%',height:165,objectFit:'cover'}}/>
             </div>
             <div className="grid-foother">                           
                 <div className="alamat-foother">

@@ -16,4 +16,44 @@ import g15 from "../img/contents/WEBSITE ABBE/15.jpg"
 import g16 from "../img/contents/WEBSITE ABBE/16.jpg"
 import g17 from "../img/contents/WEBSITE ABBE/17.jpg"
 import g18 from "../img/contents/WEBSITE ABBE/18.jpg"
-export const Gambar =[g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,g11,g12,g13,g14,g15,g16,g17,g18]
+export const Gambar =[
+    {
+        gambar:g1,
+        text: "ADVENTURE"
+    },
+    {
+        gambar:g2,
+        text: "FOTO TRIP"
+    },
+    {
+        gambar: g3,
+        text:"CORPORATE GATHERING"
+    },
+    {
+        gambar: g4,
+        text: "STUDY TOUR"
+    },
+    {
+        gambar: g5,
+        text:"OUTBOUND"
+    },
+    {
+        gambar:g8,
+        text:"MEETING"
+    },
+    {
+        gambar:g10,
+        text:"OVERLAND JAWA BALI"
+    },
+    {
+        gambar:g12,
+        text: "FREE EASSY"
+    },
+    {
+        gambar:g14,
+        text:"REQUEST TOUR"
+    },
+    {
+        gambar:g17,
+        text:"SEWA MOBIL"
+    }]

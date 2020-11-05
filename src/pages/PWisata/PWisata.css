@@ -1,25 +1,26 @@
 .container-pwisata img{
-    width: 70%;
-    height: 600px;
+    width: 30%;
+    height: 300px;
+}
+.container-header{
+    background-color: grey;
+    width: 100%;
+    height: 400px;
+}
+.gambar-pwisata img{
+    position: absolute;
+    top: 200px;
+    right: 100px;
 }
 .text-pwisata{
     position: absolute;
-    top: 600px;
+    top: 150px;
     left: 15%;
     color: white;
     background-color: black;
-    width: 70%;
-    height: 140px;
+    width: 30%;
+    height: 80px;
     opacity: 0.7;
-}
-.next{
-    position: absolute;
-    top: 520px;
-    left: 78.3%;
-    color: WHITE;
-}
-.next h3{
-    padding-left: 10px;
-    padding-right: 20px;
-    cursor: pointer;
+    z-index: 1;
+    text-align: left;
 }

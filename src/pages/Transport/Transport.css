@@ -9,7 +9,7 @@
     
 }
 .dropbtn {
-    background-color: #3399ff;
+    background-color: black;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -27,7 +27,7 @@
   
   .dropdown-content {
     display: none;
-    background-color: #3e8e41;
+    background-color: black;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -42,14 +42,14 @@
   .dropdown-content {
     right: 0;
   }
-  .dropdown-content a:hover {background-color: #3e8e41}
+  .dropdown-content a:hover {background-color: black}
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
   
   .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: black;
   }
 .grid-transaport{
     max-width: 80%;
@@ -60,7 +60,7 @@
 }
 .header-transport{
     width: 94%;
-    background-color: #3399ff;
+    background-color: white;
     margin-left: 3%;
     height: 40px;
     border-radius: 10px;

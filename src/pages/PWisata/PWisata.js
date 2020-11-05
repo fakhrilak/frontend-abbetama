@@ -23,15 +23,14 @@ const PWisata = () => {
     return (
         <div style={{paddingTop:140}}> 
             <div className="container-pwisata">
-               <img src={DATA[count].gambar}/>
+                <div className="container-header"/>
+                <div className="text-pwisata">
+                    <h1>{DATA[count].text}</h1>
+                </div>
+                <div className="gambar-pwisata">
+                    <img src={DATA[count].gambar}/>
+                </div>
             </div>
-            <div className="text-pwisata">
-                <h1>{DATA[count].text}</h1>
-            </div>
-            <div className="next">
-                <h3 onClick={()=>HandleCount()}>{"NEXT >>"}</h3>
-            </div>
-
         </div>
     )
 }
