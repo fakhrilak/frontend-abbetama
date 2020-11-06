@@ -22,11 +22,11 @@ const Navbar = ({setShow,show}) => {
                     <button onClick={()=>setShow(true)}>REGISTER</button></Link></li>
                 <li className="item-navbar"><Link to='/reservasi'>RESERVASI</Link></li>
                 <li className="item-navbar"><Link to='/blog'>BLOG</Link></li>
-                <li className="item-navbar"><Link to='/event'>NEWS</Link></li>
+                <li className="item-navbar"><Link to='/event'>NEWS</Link></li>      
+                <li className="item-navbar"><Link to='/hotel'>HOTEL</Link></li>
                 <li className="item-navbar"><Link to='/transport'>TRANSPORT</Link></li>
                 <li className="item-navbar"><Link to='/paket-wisata'>PAKET WISATA</Link></li>
                 <li className="item-navbar"><Link to='/profile'>PROFILE</Link></li>
-                <li className="item-navbar"><Link to='/hotel'>HOTEL</Link></li>
                 <li className="item-navbar"><Link to='/'>BERANDA</Link></li>
             </ul>           
         </div>
