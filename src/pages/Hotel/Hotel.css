@@ -1,26 +1,31 @@
 .header-hotel{
-    width: 94%;
+    width: 87%;
     background-color: white;
     margin-left: 3%;
     height: 40px;
     border-radius: 10px;
+    
 }
 .select-lokasi{
     float: right;
-    color: white;
 }
 .select-lokasi select{
     border-radius: 10px;
     height: 40px;
-    background-color: white;
+    background-image: linear-gradient(to right, #5d0090, #f777bb);
     border: none;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: large;
+    text-align: center;
 }
 
 .select-lokasi option{
     padding-top: 10px;
+    background-color: #5d0090;
+    font-weight: bold;
+    font-size: large;
+    margin: 20px;
 }
 .content-hotel{
     width: 80%;
@@ -33,9 +38,15 @@
     grid-template-columns: 1fr 1fr 1fr ;
     gap: 1rem;
 }
+.hotel-card{
+    background-image: linear-gradient(to right, #5d0090, #f777bb);
+    padding-top: 20px;
+    border-radius: 20px;
+}
 .hotel-card img{
-    width: 300px;
+    width: 90%;
     height: 200px;
+    border-radius: 20px;
 }
 .fasilitas{
     max-width: 78%;
@@ -63,7 +74,6 @@
 .grid-card-bawah{
     max-width: 78%;
     margin-left: 11%;
-    background-color: black;
     color:white;
     font-size: large;
     font-weight: bolder;

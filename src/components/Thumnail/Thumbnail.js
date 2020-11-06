@@ -28,14 +28,6 @@ const Thumbnail = ({count,setCount}) => {
             <div className="text-caption">
                 <p > {Gambar[count].caption}</p>
             </div>
-            <div className='slideShow'>    
-                <h1 className='slide-left'
-                onClick={()=>HandleMinus()}
-                >{'<<'}</h1>
-                <h1 className='slide-right'
-                onClick={()=>HandlePlus()}
-                >{'>>'}</h1>
-            </div> 
        </div>
     )
 }

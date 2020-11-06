@@ -14,7 +14,8 @@
 .opasity{
     position: absolute;
     top: 160px;
-    left: 60%;
+    right: 120px;
+    color: #5d0090;
 }
 
 .icons{
@@ -32,7 +33,8 @@
 }
 
 .container-about{
-    background-color: #6eb6a6;
+    background-image: linear-gradient(to right, #5d0090, #f777bb);
+    color: white;
 }
 .grid-about p{
     text-align: justify;

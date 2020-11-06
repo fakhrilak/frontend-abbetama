@@ -11,6 +11,7 @@ import Event from "./pages/Event/Event"
 import Blog from "./pages/Blog/Blog"
 import Reservasi from "./pages/Reservasi/Reservasi"
 import Foother from "./components/Foother/Foother"
+import Detail from "./pages/Detail/Detail"
 import './App.css';
 import {
   HashRouter as Router,
@@ -42,6 +43,7 @@ function App() {
             <Route exact path="/event" component={Event}/>
             <Route exact path="/blog" component={Blog}/>
             <Route exact path="/reservasi" component={Reservasi}/>
+            <Route exact path = "/detail/:nama/:id" component={Detail}/>
          </div>
      </Router> 
     </div>

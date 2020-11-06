@@ -1,5 +1,5 @@
 .form-input{
-    background-color:white;
+    background-image: linear-gradient(to right, #5d0090, #f777bb);
     width: 400px;
     position: absolute;
     top:200px;
@@ -20,7 +20,7 @@
     position: absolute;
     top: 300px;
     left:20%;
-    color: #083616;
+    color: #5d0090;
     text-decoration: underline;
     font-size: larger;
 }

@@ -22,12 +22,12 @@ const Reservasi = () => {
                 <div className="grid-reservasi">
                     <div className="item-select">
                         <select>
-                            <option>Packet</option>
+                            <option>Tujuan</option>
                         </select>
                     </div>
                     <div className="item-select">
                         <select>
-                            <option>Tujuan</option>
+                            <option>Paket</option>
                         </select>
                     </div>
                     <div className="item-Input">

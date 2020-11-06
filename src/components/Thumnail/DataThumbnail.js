@@ -16,6 +16,7 @@ import g15 from "../img/contents/WEBSITE ABBE/15.jpg"
 import g16 from "../img/contents/WEBSITE ABBE/16.jpg"
 import g17 from "../img/contents/WEBSITE ABBE/17.jpg"
 import g18 from "../img/contents/WEBSITE ABBE/18.jpg"
+import avanza from "../img/contents/WEBSITE ABBE/avanza.jpg"
 export const Gambar =[
     {
         gambar:g1,
@@ -49,21 +50,13 @@ export const Gambar =[
     },
     {
         gambar:g10,
-        text:"OVERLAND JAWA BALI",
-        caption: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+        text:"OVERLAND",
+        caption: "(MIN 4PAX) JOGJA - BROMO - IJEN STARTFROM 2000K/PAX HOTEL *** 1 MALAM MEALS TRANSPORT"
     },
     {
-        gambar:g12,
-        text: "FREE EASSY",
-        caption: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-    },
-    {
-        gambar:g14,
-        text:"REQUEST TOUR",
-        caption: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-    },
-    {
-        gambar:g17,
+        gambar:avanza,
         text:"SEWA MOBIL",
-        caption: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-    }]
+        caption: "START FROM 450K . TOYOTA AVANZA DRIVER BBM  12 JAM DALAM KOTA"
+         
+    }
+]
