@@ -17,6 +17,7 @@
 }
 .Container-foother{
     padding-top: 10px;
+    padding-top: 140px;
     padding-bottom: 10px;
 }
 .grid-foother-icon{
@@ -36,11 +37,47 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0.2rem;
-    position: absolute;
-    top:60px;
-    padding-left: 40px;
 }
 .grid-right img{
     width: 70px;
     height: 60 px;
+}
+
+.Foother-Container{
+    background-image: linear-gradient(to right, #8d06d6, #f777bb);
+    margin-top: 100px;
+}
+
+.Container-Foother2{
+    width: 80%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    color: #5d0090;
+    margin-left: 13%;
+}
+
+.Container-Foother-1{
+    text-align: left;
+}
+
+.grid-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1rem;
+    width: 80%;
+    margin-left: 10%;
+}
+.grid-icons-1{
+    color: #5d0090;
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.grid-icons-2{
+    color: #5d0090;
+    font-size: 25px;
+}
+
+.iconsx{
+   margin: 20px;
 }

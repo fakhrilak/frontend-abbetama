@@ -10,7 +10,7 @@ import Transport from "./pages/Transport/Transport"
 import Event from "./pages/Event/Event"
 import Blog from "./pages/Blog/Blog"
 import Reservasi from "./pages/Reservasi/Reservasi"
-import Foother from "./components/Foother/Foother"
+import Foother from "./components/Foother/Foother2"
 import Detail from "./pages/Detail/Detail"
 import './App.css';
 import {
@@ -23,6 +23,7 @@ import {
 function App() {
   const [show,setShow]=useState(false)
   return (
+  <>
     <div className="App">
      <Router>
          <div>
@@ -45,8 +46,9 @@ function App() {
             <Route exact path="/reservasi" component={Reservasi}/>
             <Route exact path = "/detail/:nama/:id" component={Detail}/>
          </div>
-     </Router> 
+     </Router>        
     </div>
+    </>
   );
 }
 

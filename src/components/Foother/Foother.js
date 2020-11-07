@@ -10,6 +10,7 @@ import garuda from "../img/navbar/garuda.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faWhatsapp} from "@fortawesome/free-brands-svg-icons"
 import {Gambar} from "../Thumnail/DataThumbnail"
+import Foother2 from "./Foother2"
 const Foother = () => {
     return (
         <div className="Container-foother">
@@ -57,6 +58,7 @@ const Foother = () => {
                     </div>
                 </div>
             </div>
+            <Foother2/>
         </div>
     )
 }

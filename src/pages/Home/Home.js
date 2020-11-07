@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import Thumbnail from "../../components/Thumnail/Thumbnail"
 import './Home.css'
-import Foother from "../../components/Foother/Foother"
+import Foother from "../../components/Foother/Foother2"
 import {Gambar}from "../../components/Thumnail/DataThumbnail"
 import {DATA} from "../PWisata/DataPwisata"
 import {useHistory} from "react-router-dom"
@@ -57,7 +57,8 @@ const Home = () => {
                 <div className="Container-Home">
                     <img src={Gambar[6].gambar}/>
                 </div>
-            </div>          
+            </div>
+            <Foother/>      
         </div>
     )
 }

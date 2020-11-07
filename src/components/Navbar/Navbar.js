@@ -1,12 +1,34 @@
-import React from 'react'
+import React,{useRef,useState,useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import "./Navbar.css"
 import logo from "../../components/img/navbar/1.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook,faTwitter,faInstagram,faYoutube } from "@fortawesome/free-brands-svg-icons"
 const Navbar = ({setShow,show}) => {
+        const prevScrollY = useRef(0);
+
+        const [goingUp, setGoingUp] = useState(false);
+
+        useEffect(() => {
+            const handleScroll = () => {
+            const currentScrollY = window.scrollY;
+
+            if (currentScrollY >5) {
+                setGoingUp(true);
+            }else{
+                setGoingUp(false)
+            }
+            prevScrollY.current = currentScrollY;
+            };
+
+            window.addEventListener("scroll", handleScroll, { passive: true });
+
+            return () => window.removeEventListener("scroll", handleScroll);
+        }, [goingUp]);
+
+        console.log(goingUp)
     return (
-        <div className="container-navbar">
+        <div className="container-navbar" style={{backgroundImage: goingUp===true ? "linear-gradient(to right, #5d0090, #f777bb)":"none",color:'white'}}>
             <ul>
                 <li className="icon-navbar"><a href="https://www.facebook.com/assyroh.kaffah/" target="_blank"><FontAwesomeIcon icon={faFacebook}/></a></li>
                 <li className="icon-navbar"><a href="https://twitter.com/FakhrilAK/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a></li>
