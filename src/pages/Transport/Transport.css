@@ -1,13 +1,4 @@
-.outtable{
-    padding: 20px;
-    widows: 100%;
-    color: black;
-    margin-left: 3%;
-    margin-right: 3%;
-    border: 2px solid #3399ff;
-    border-radius: 10px;
-    
-}
+
 .dropbtn {
     background-image: linear-gradient(to right, #5d0090, #f777bb);
     color: white;
@@ -56,8 +47,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     gap: 1rem;
-    margin-left: 10%;
-    
+    padding-left: 10%;
+    padding-right: 10%; 
 }
 .header-transport{
     width: 94%;

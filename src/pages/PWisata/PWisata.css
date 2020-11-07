@@ -1,4 +1,4 @@
-.container-pwisata img{
+.gambar-pwisata img{
     width: 50%;
     height: 350px;
 }
@@ -52,13 +52,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
-
+    max-width: 100%;
 }
-
-.grid-detail img{
-    width: 400px;
+.item img{
+    max-width: 100%;
     height: 400px;
 }
+
 .details{
     display: grid;
     grid-template-columns: 1fr;

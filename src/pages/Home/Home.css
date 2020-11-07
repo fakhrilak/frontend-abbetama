@@ -3,9 +3,14 @@
     background-color: black;
     height: 300px;
     color:#5d0090;
+    max-width: 100%;
+}
+.Container-Home img{
+  max-width: 100%;
 }
 .container-home{
   color:#5d0090;
+  max-width: 100%;
 }
 .grid{
   display: grid;
