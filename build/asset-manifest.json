@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/frontend-abbetama/static/css/main.174dcf7f.chunk.css",
-    "main.js": "/frontend-abbetama/static/js/main.3c3aec32.chunk.js",
-    "main.js.map": "/frontend-abbetama/static/js/main.3c3aec32.chunk.js.map",
+    "main.css": "/frontend-abbetama/static/css/main.7a08cb59.chunk.css",
+    "main.js": "/frontend-abbetama/static/js/main.a510ea11.chunk.js",
+    "main.js.map": "/frontend-abbetama/static/js/main.a510ea11.chunk.js.map",
     "runtime-main.js": "/frontend-abbetama/static/js/runtime-main.f700884d.js",
     "runtime-main.js.map": "/frontend-abbetama/static/js/runtime-main.f700884d.js.map",
     "static/css/2.95456d05.chunk.css": "/frontend-abbetama/static/css/2.95456d05.chunk.css",
-    "static/js/2.aa82e485.chunk.js": "/frontend-abbetama/static/js/2.aa82e485.chunk.js",
-    "static/js/2.aa82e485.chunk.js.map": "/frontend-abbetama/static/js/2.aa82e485.chunk.js.map",
+    "static/js/2.3ed5869e.chunk.js": "/frontend-abbetama/static/js/2.3ed5869e.chunk.js",
+    "static/js/2.3ed5869e.chunk.js.map": "/frontend-abbetama/static/js/2.3ed5869e.chunk.js.map",
     "static/js/3.c7df47c5.chunk.js": "/frontend-abbetama/static/js/3.c7df47c5.chunk.js",
     "static/js/3.c7df47c5.chunk.js.map": "/frontend-abbetama/static/js/3.c7df47c5.chunk.js.map",
     "index.html": "/frontend-abbetama/index.html",
     "static/css/2.95456d05.chunk.css.map": "/frontend-abbetama/static/css/2.95456d05.chunk.css.map",
-    "static/css/main.174dcf7f.chunk.css.map": "/frontend-abbetama/static/css/main.174dcf7f.chunk.css.map",
-    "static/js/2.aa82e485.chunk.js.LICENSE.txt": "/frontend-abbetama/static/js/2.aa82e485.chunk.js.LICENSE.txt",
+    "static/css/main.7a08cb59.chunk.css.map": "/frontend-abbetama/static/css/main.7a08cb59.chunk.css.map",
+    "static/js/2.3ed5869e.chunk.js.LICENSE.txt": "/frontend-abbetama/static/js/2.3ed5869e.chunk.js.LICENSE.txt",
     "static/media/1.647899ae.jpg": "/frontend-abbetama/static/media/1.647899ae.jpg",
     "static/media/1.65e6eccb.jpg": "/frontend-abbetama/static/media/1.65e6eccb.jpg",
     "static/media/1.6c7e9684.png": "/frontend-abbetama/static/media/1.6c7e9684.png",
@@ -48,8 +48,8 @@
   "entrypoints": [
     "static/js/runtime-main.f700884d.js",
     "static/css/2.95456d05.chunk.css",
-    "static/js/2.aa82e485.chunk.js",
-    "static/css/main.174dcf7f.chunk.css",
-    "static/js/main.3c3aec32.chunk.js"
+    "static/js/2.3ed5869e.chunk.js",
+    "static/css/main.7a08cb59.chunk.css",
+    "static/js/main.a510ea11.chunk.js"
   ]
 }

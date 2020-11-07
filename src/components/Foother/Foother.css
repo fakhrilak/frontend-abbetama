@@ -54,7 +54,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     color: #5d0090;
-    margin-left: 13%;
+    margin-left: 10%;
 }
 
 .Container-Foother-1{
@@ -62,22 +62,18 @@
 }
 
 .grid-icons{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap:1rem;
-    width: 80%;
-    margin-left: 10%;
+    width: 100%;
 }
 .grid-icons-1{
     color: #5d0090;
-    text-align: right;
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .grid-icons-2{
     color: #5d0090;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .iconsx{
-   margin: 20px;
+    margin-left: 25px;
 }
