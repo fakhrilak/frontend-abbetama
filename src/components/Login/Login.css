@@ -6,7 +6,10 @@
     right: 40px;
     border-radius: 30px;
 }
-
+.wrapper-form img{
+    width: 400px;
+    padding-left: 20%;
+}
 .form-input input{
     width: 300px;
 }

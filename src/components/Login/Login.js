@@ -1,6 +1,6 @@
 import React from 'react'
 import background from '../img/contents/2.jpg'
-import logo from "../img/navbar/1.png"
+import logo from "../img/navbar/2.png"
 import "./Login.css"
 import {useHistory} from 'react-router-dom'
 const Login = ({setShow}) => {
@@ -21,7 +21,7 @@ const Login = ({setShow}) => {
            </div> 
            <div className="form-input">
                 <div className="wrapper-form">
-                    <img src={logo} style={{width:200}}
+                    <img src={logo}
                     onClick={()=>handlePushHome()}
                     />
                 </div>

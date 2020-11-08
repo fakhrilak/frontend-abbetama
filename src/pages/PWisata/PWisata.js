@@ -3,54 +3,34 @@ import './PWisata.css'
 import {DATA} from "./DataPwisata"
 import {useHistory } from "react-router-dom"
 const PWisata = () => {
-    const [formData, setFormData] = useState({
-        paket:"0"
-    })
+    const [count,setCount]=useState(0)
+    const [paket,setPaket]=useState(0)
+
     const history = useHistory()
+
     const HandlePush=(id)=>{
         let detailpaket = DATA[paket].text
         history.push(`/detail/${detailpaket}/${id}`)
     }
-    const [count,setCount]=useState(0)
-    const {paket} = formData
-    const HandlePlus=()=>{
-        if(count === 2)
-            setCount(0)
-        else{
-            setCount(count + 1)
-        }
+
+    const HandleChoos=(id)=>{
+        setPaket(id)
     }
-    setTimeout(()=>HandlePlus(),3000)
-    const onChange = (e) => {
-        setFormData({ ...formData, [e.target.name]: e.target.value });
-    };
-    console.log("this is paket",paket,count)
     return (
         <div style={{paddingTop:140}}> 
             <div className="container-pwisata">
-                <div className="container-header"/>
-                <div className="text-pwisata">
-                <select
-                        name="paket"
-                        onChange={(e) => {
-                            onChange(e);
-                          }}
-                        >
-                        <option value="" disabled selected>PILIH PAKET</option>
-                            {DATA.map((data) => (
-                                <option value={data.id}>
-                                    {data.text}
-                                </option>
-                            ))} 
-                        </select>
-                </div>
-                <div>
-                    <h1>{DATA[paket].text}</h1>
-                </div>
-                 <div className="gambar-pwisata">
-                    <img src={DATA[paket].detail[count].gambar}/>
+                <div className="container-header">
+                    <div className="grid-runingpict">
+                        {DATA.map((data,index)=>(
+                            <div>
+                                <img src={data.gambar} onClick={()=>HandleChoos(index)}/>
+                                <h4>{data.text}</h4>
+                            </div>
+                        ))}
+                    </div>
                 </div>
                 <div className="container-grid-detail">
+                    <h1>{DATA[paket].text}</h1>
                     <div className="grid-detail">
                         {DATA[paket].detail.map((detail)=>(
                             <div>

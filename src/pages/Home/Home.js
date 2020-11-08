@@ -5,6 +5,8 @@ import Foother from "../../components/Foother/Foother2"
 import {Gambar}from "../../components/Thumnail/DataThumbnail"
 import {DATA} from "../PWisata/DataPwisata"
 import {useHistory} from "react-router-dom"
+import Slider from 'react-animated-slider';
+import 'react-animated-slider/build/horizontal.css';
 
 const Home = () => {
     const [count,setCount]=useState(0)
@@ -34,21 +36,58 @@ const Home = () => {
             setB(B+1)
         }
     }
+    var kalimat = "Selamat Datang Di Abbetama Tour and Travel";
+    let tes="";
+    let i;
+    
     return (
         <div className="container-home">
             <div>
                 <Thumbnail count={count} setCount={setCount}/>
             </div>
+            <div class="sitemessage">
+                <h1 style={{fontSize:40}}>{kalimat}</h1> 
+            </div>
             <h1 style={{textAlign:'left',marginLeft:'10%',marginRight:'10%'}}>DESTINATION</h1>
             <div className="grid">          
                 <div className="Container-Home">
-                    <img src={DATA[0].detail[A].gambar} onClick={()=>HandlePush(DATA[0].text,DATA[0].detail[A].id)}/>
-                    <h3>{DATA[0].detail[A].lokasi}</h3>
+                <Slider autoplay={3000}>
+	                {DATA[0].detail.map((item, index) => (
+		            <div
+                        key={index}
+                        style={{ background: `url('${item.gambar}') no-repeat center center`,
+                        backgroundSize:"100%"}}
+                        onClick={()=>HandlePush(DATA[0].text,index+1)}
+		            >
+                            <div className="center">
+                                <div className="lokasi">
+                                    <h2>{item.lokasi}</h2>
+                                </div>                               
+                            </div>
+                        </div>
+                    ))}
+                </Slider>
                 </div>
 
                 <div className="Container-Home">
-                    <img src={DATA[1].detail[B].gambar } onClick={()=>HandlePush(DATA[1].text,DATA[1].detail[B].id)}/>
-                    <h3>{DATA[1].detail[B].lokasi}</h3>
+                <Slider autoplay={3000}>
+	                {DATA[1].detail.map((item, index) => (
+		            <div
+                        key={index}
+                        style={{ background: `url('${item.gambar}') no-repeat center center`,
+                        backgroundSize:"100%"
+
+                    }}
+                    onClick={()=>HandlePush(DATA[1].text,index+1)}
+		            >
+                            <div className="center">
+                                <div className="lokasi">
+                                    <h2>{item.lokasi}</h2>
+                                </div>                               
+                            </div>
+                        </div>
+                    ))}
+                </Slider>
                 </div>
             </div>
             <h1 style={{textAlign:'right',marginRight:'10%',paddingTop:100}}>PROMO PAKET</h1>
