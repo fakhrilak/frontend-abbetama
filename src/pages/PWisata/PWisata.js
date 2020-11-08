@@ -24,7 +24,7 @@ const PWisata = () => {
                         {DATA.map((data,index)=>(
                             <div>
                                 <img src={data.gambar} onClick={()=>HandleChoos(index)}/>
-                                <h4>{data.text}</h4>
+                                <h4 style={{color:(index === paket)?"white":"#5d0090"}}>{data.text}</h4>
                             </div>
                         ))}
                     </div>

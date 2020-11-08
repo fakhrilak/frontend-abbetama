@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/frontend-abbetama/static/css/main.71928326.chunk.css",
-    "main.js": "/frontend-abbetama/static/js/main.a510ea11.chunk.js",
-    "main.js.map": "/frontend-abbetama/static/js/main.a510ea11.chunk.js.map",
+    "main.css": "/frontend-abbetama/static/css/main.54509767.chunk.css",
+    "main.js": "/frontend-abbetama/static/js/main.0e414e0b.chunk.js",
+    "main.js.map": "/frontend-abbetama/static/js/main.0e414e0b.chunk.js.map",
     "runtime-main.js": "/frontend-abbetama/static/js/runtime-main.f700884d.js",
     "runtime-main.js.map": "/frontend-abbetama/static/js/runtime-main.f700884d.js.map",
-    "static/css/2.95456d05.chunk.css": "/frontend-abbetama/static/css/2.95456d05.chunk.css",
-    "static/js/2.3ed5869e.chunk.js": "/frontend-abbetama/static/js/2.3ed5869e.chunk.js",
-    "static/js/2.3ed5869e.chunk.js.map": "/frontend-abbetama/static/js/2.3ed5869e.chunk.js.map",
+    "static/css/2.53ccf9ad.chunk.css": "/frontend-abbetama/static/css/2.53ccf9ad.chunk.css",
+    "static/js/2.7ba65a5a.chunk.js": "/frontend-abbetama/static/js/2.7ba65a5a.chunk.js",
+    "static/js/2.7ba65a5a.chunk.js.map": "/frontend-abbetama/static/js/2.7ba65a5a.chunk.js.map",
     "static/js/3.c7df47c5.chunk.js": "/frontend-abbetama/static/js/3.c7df47c5.chunk.js",
     "static/js/3.c7df47c5.chunk.js.map": "/frontend-abbetama/static/js/3.c7df47c5.chunk.js.map",
     "index.html": "/frontend-abbetama/index.html",
-    "static/css/2.95456d05.chunk.css.map": "/frontend-abbetama/static/css/2.95456d05.chunk.css.map",
-    "static/css/main.71928326.chunk.css.map": "/frontend-abbetama/static/css/main.71928326.chunk.css.map",
-    "static/js/2.3ed5869e.chunk.js.LICENSE.txt": "/frontend-abbetama/static/js/2.3ed5869e.chunk.js.LICENSE.txt",
+    "static/css/2.53ccf9ad.chunk.css.map": "/frontend-abbetama/static/css/2.53ccf9ad.chunk.css.map",
+    "static/css/main.54509767.chunk.css.map": "/frontend-abbetama/static/css/main.54509767.chunk.css.map",
+    "static/js/2.7ba65a5a.chunk.js.LICENSE.txt": "/frontend-abbetama/static/js/2.7ba65a5a.chunk.js.LICENSE.txt",
     "static/media/1.647899ae.jpg": "/frontend-abbetama/static/media/1.647899ae.jpg",
     "static/media/1.65e6eccb.jpg": "/frontend-abbetama/static/media/1.65e6eccb.jpg",
-    "static/media/1.6c7e9684.png": "/frontend-abbetama/static/media/1.6c7e9684.png",
     "static/media/10.da650f7a.jpg": "/frontend-abbetama/static/media/10.da650f7a.jpg",
     "static/media/11.6854676f.jpg": "/frontend-abbetama/static/media/11.6854676f.jpg",
     "static/media/12.ee2def22.jpg": "/frontend-abbetama/static/media/12.ee2def22.jpg",
@@ -28,6 +27,7 @@
     "static/media/18.b4df8905.jpg": "/frontend-abbetama/static/media/18.b4df8905.jpg",
     "static/media/2.2043cc7f.jpg": "/frontend-abbetama/static/media/2.2043cc7f.jpg",
     "static/media/2.22b37750.jpg": "/frontend-abbetama/static/media/2.22b37750.jpg",
+    "static/media/2.54644485.png": "/frontend-abbetama/static/media/2.54644485.png",
     "static/media/3.de0bf9a7.jpg": "/frontend-abbetama/static/media/3.de0bf9a7.jpg",
     "static/media/4.e1a47a8a.jpg": "/frontend-abbetama/static/media/4.e1a47a8a.jpg",
     "static/media/5.9e7c1713.jpg": "/frontend-abbetama/static/media/5.9e7c1713.jpg",
@@ -43,13 +43,14 @@
     "static/media/garuda.26f0425b.png": "/frontend-abbetama/static/media/garuda.26f0425b.png",
     "static/media/lionparcel.9757c597.png": "/frontend-abbetama/static/media/lionparcel.9757c597.png",
     "static/media/makkah.53377c18.png": "/frontend-abbetama/static/media/makkah.53377c18.png",
-    "static/media/paypal.fbfceae8.png": "/frontend-abbetama/static/media/paypal.fbfceae8.png"
+    "static/media/paypal.fbfceae8.png": "/frontend-abbetama/static/media/paypal.fbfceae8.png",
+    "static/media/pesonaindonesia.3981637b.png": "/frontend-abbetama/static/media/pesonaindonesia.3981637b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f700884d.js",
-    "static/css/2.95456d05.chunk.css",
-    "static/js/2.3ed5869e.chunk.js",
-    "static/css/main.71928326.chunk.css",
-    "static/js/main.a510ea11.chunk.js"
+    "static/css/2.53ccf9ad.chunk.css",
+    "static/js/2.7ba65a5a.chunk.js",
+    "static/css/main.54509767.chunk.css",
+    "static/js/main.0e414e0b.chunk.js"
   ]
 }

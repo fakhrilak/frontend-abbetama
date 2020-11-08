@@ -45,9 +45,7 @@ const Home = () => {
             <div>
                 <Thumbnail count={count} setCount={setCount}/>
             </div>
-            <div class="sitemessage">
-                <h1 style={{fontSize:40}}>{kalimat}</h1> 
-            </div>
+            <marquee behavior="scroll" direction="left" scrollamount="10"><h1>{kalimat}</h1></marquee>
             <h1 style={{textAlign:'left',marginLeft:'10%',marginRight:'10%'}}>DESTINATION</h1>
             <div className="grid">          
                 <div className="Container-Home">
@@ -56,7 +54,7 @@ const Home = () => {
 		            <div
                         key={index}
                         style={{ background: `url('${item.gambar}') no-repeat center center`,
-                        backgroundSize:"100%"}}
+                        backgroundSize:"100%",borderRadius:10}}
                         onClick={()=>HandlePush(DATA[0].text,index+1)}
 		            >
                             <div className="center">
@@ -75,7 +73,7 @@ const Home = () => {
 		            <div
                         key={index}
                         style={{ background: `url('${item.gambar}') no-repeat center center`,
-                        backgroundSize:"100%"
+                        backgroundSize:"100%",borderRadius:10
 
                     }}
                     onClick={()=>HandlePush(DATA[1].text,index+1)}

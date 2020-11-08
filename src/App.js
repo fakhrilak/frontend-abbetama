@@ -12,6 +12,7 @@ import Blog from "./pages/Blog/Blog"
 import Reservasi from "./pages/Reservasi/Reservasi"
 import Foother from "./components/Foother/Foother2"
 import Detail from "./pages/Detail/Detail"
+import DetailNews from "./pages/Event/DetailNews"
 import './App.css';
 import {
   HashRouter as Router,
@@ -41,10 +42,11 @@ function App() {
             <Route exact path="/profile" component={Profile}/>
             <Route exact path="/paket-wisata" component={PWisata}/>
             <Route exact path="/transport" component={Transport}/>
-            <Route exact path="/event" component={Event}/>
+            <Route exact path="/news" component={Event}/>
             <Route exact path="/blog" component={Blog}/>
             <Route exact path="/reservasi" component={Reservasi}/>
             <Route exact path = "/detail/:nama/:id" component={Detail}/>
+            <Route exact path = "/news/:id" component={DetailNews}/>
          </div>
      </Router>        
     </div>

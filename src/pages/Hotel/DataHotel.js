@@ -1,4 +1,4 @@
-import g1 from "../../components/img/contents/1.jpg"
+import g1 from "../../components/img/navbar/hotel.jpg"
 export const Data = [
     {
         gambar:g1,
