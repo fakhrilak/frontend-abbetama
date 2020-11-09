@@ -23,30 +23,48 @@ import {
 
 function App() {
   const [show,setShow]=useState(false)
+  const [drak,setDrak]=useState(false)
   return (
   <>
     <div className="App">
      <Router>
          <div>
-           {!show && <Navbar setShow={setShow} show={show}/>}
+           {!show && <Navbar setShow={setShow} show={show} setDrak={setDrak} drak={drak}/>}
          </div>
          <div className="pages" style={{height:show ? 0:140}}>
-            <Route exact path="/" component={Home}/>
-            <Route exact path="/hotel" component={Hotel}/>
+            <Route exact path="/" >
+                <Home setDrak={setDrak} drak={drak}/>
+            </Route>
+            <Route exact path="/hotel" >
+                <Hotel setDrak={setDrak} drak={drak}/>
+            </Route>
             <Route exact path="/login">
-                  <Login setShow={setShow}/>
+                  <Login setShow={setShow} drak={drak}/>
             </Route> 
             <Route exact path="/register">
-                  <Register setShow={setShow}/>
+                  <Register setShow={setShow} drak={drak}/>
             </Route>
-            <Route exact path="/profile" component={Profile}/>
-            <Route exact path="/paket-wisata" component={PWisata}/>
-            <Route exact path="/transport" component={Transport}/>
-            <Route exact path="/news" component={Event}/>
-            <Route exact path="/blog" component={Blog}/>
-            <Route exact path="/reservasi" component={Reservasi}/>
-            <Route exact path = "/detail/:nama/:id" component={Detail}/>
-            <Route exact path = "/news/:id" component={DetailNews}/>
+            <Route exact path="/profile" >
+                  <Profile setDrak={setDrak} drak={drak}/>
+            </Route>
+            <Route exact path="/paket-wisata">
+                  <PWisata setDrak={setDrak} drak={drak}/>
+            </Route>
+            <Route exact path="/transport">
+                  <Transport setDrak={setDrak} drak={drak}/>
+            </Route>
+            <Route exact path="/news" >
+                <Event setDrak={setDrak} drak={drak}/>
+            </Route>
+            <Route exact path="/reservasi">
+                <Reservasi setDrak={setDrak} drak={drak}/>
+            </Route>
+            <Route exact path = "/detail/:nama/:id">
+                <Detail setDrak={setDrak} drak={drak}/>
+            </Route>
+            <Route exact path = "/news/:id">
+                <DetailNews setDrak={setDrak} drak={drak}/>
+            </Route>
          </div>
      </Router>        
     </div>

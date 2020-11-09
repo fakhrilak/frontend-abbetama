@@ -3,7 +3,7 @@ import background from '../img/contents/2.jpg'
 import logo from "../img/navbar/2.png"
 import "./Login.css"
 import {useHistory} from 'react-router-dom'
-const Login = ({setShow}) => {
+const Login = ({setShow,drak}) => {
 
     const history = useHistory()
     
@@ -48,7 +48,7 @@ const Login = ({setShow}) => {
                </div>
            </div>
            <div className="text-tagline">
-               <h1>SMART EXPLORE FOR HOLIDAY</h1>
+               <h1 style={{color:drak?"black":"#5d0090",textDecoration:'underline'}}>SMART EXPLORE FOR HOLIDAY</h1>
            </div>
         </div>
     )

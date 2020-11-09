@@ -4,10 +4,9 @@ import './Profile.css'
 import logo from "../../components/img/contents/1.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationArrow } from "@fortawesome/free-solid-svg-icons"
-const Profile = () => {
-    console.log(Data[0].text)
+const Profile = ({drak}) => {
     return (
-        <div style={{paddingTop:140}}>
+        <div style={{paddingTop:140,backgroundColor:drak? "black":"white",color:drak?"white":"black"}}>
             <div>
                 <div className="data-about">
                     <div>
@@ -15,8 +14,8 @@ const Profile = () => {
                     </div>                   
                 </div>
                 <div className="opasity">
-                    <h1>ABBETAMA TOUR AND TRAVEL</h1>
-                    <div className="icons"> 
+                    <h1 style={{color:drak? "black":"#5d0090"}}>ABBETAMA TOUR AND TRAVEL</h1>
+                    <div className="icons" style={{color:drak? "black":"#5d0090"}}> 
                         <FontAwesomeIcon icon={faLocationArrow}/>   Yogyakarta
                     </div>
                 </div>
@@ -24,7 +23,8 @@ const Profile = () => {
             </div>
             <div className="grid-about">
                 <div>
-                    <div className="container-about">
+                    <div className="container-about" style={{backgroundImage:drak ?"linear-gradient(to right, black, white)":
+                    "linear-gradient(to right, #5d0090, #f777bb)"}}>
                         <h1>About</h1>
                     </div>
                     <div>

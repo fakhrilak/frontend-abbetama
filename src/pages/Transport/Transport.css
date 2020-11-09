@@ -33,7 +33,6 @@
   .dropdown-content {
     right: 0;
   }
-  .dropdown-content a:hover {background-image: linear-gradient(to right, #5d0090, #f777bb)}
   
   .dropdown:hover .dropdown-content {
     display: block;

@@ -2,7 +2,7 @@ import React from 'react'
 import {Gambar} from "./DataThumbnail"
 
 
-const Thumbnail = ({count,setCount}) => {
+const Thumbnail = ({count,setCount,drak}) => {
 
 
     setTimeout(()=>{HandlePlus()},3000)
@@ -21,11 +21,13 @@ const Thumbnail = ({count,setCount}) => {
         }
     }
     return (
-        <div className="continer-thumbnail">
+        <div className="continer-thumbnail" style={{backgroundImage: drak? "linear-gradient(to right, black, white)":
+        "linear-gradient(to right, #5d0090, #f777bb)"}}>
             
             <img src={Gambar[count].gambar} style={{width:'100%',height: 600}}/>
-            <h1 className="text-gambar"> {Gambar[count].text}</h1>
-            <div className="text-caption">
+            <h1 className="text-gambar" style={{color:drak?"black":"#5d0090"}}> {Gambar[count].text}</h1>
+            <div className="text-caption" style={{backgroundImage:drak ?"linear-gradient(to right, black, white)":
+                    "linear-gradient(to right, #5d0090, #f777bb)"}}>
                 <p > {Gambar[count].caption}</p>
             </div>
        </div>

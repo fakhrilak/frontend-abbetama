@@ -8,7 +8,7 @@ import {useHistory} from "react-router-dom"
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import {PROMO} from "../../components/Thumnail/DataThumbnail"
-const Home = () => {
+const Home = ({drak}) => {
     const [count,setCount]=useState(0)
     const [A,setA]= useState(0)
     const [B,setB]= useState(0)
@@ -39,9 +39,10 @@ const Home = () => {
     var kalimat = "Selamat Datang Di Abbetama Tour and Travel";
     
     return (
-        <div className="container-home">
+        <div className="container-home" style={{backgroundColor:drak ? "black":"white",
+        color: drak? "white":"#5d0090"}}>
             <div>
-                <Thumbnail count={count} setCount={setCount}/>
+                <Thumbnail count={count} setCount={setCount} drak={drak}/>
             </div>
             <marquee behavior="scroll" direction="left" scrollamount="10"><h1>{kalimat}</h1></marquee>
             <h1 style={{textAlign:'left',marginLeft:'10%',marginRight:'10%'}}>DESTINATION</h1>
@@ -55,7 +56,7 @@ const Home = () => {
                         backgroundSize:"100%",borderRadius:10}}
                         onClick={()=>HandlePush(DATA[0].text,index+1)}
 		            >
- 
+                            
                         </div>
                     ))}
                 </Slider>
@@ -72,7 +73,6 @@ const Home = () => {
                     }}
                     onClick={()=>HandlePush(DATA[1].text,index+1)}
 		            >
- 
                         </div>
                     ))}
                 </Slider>
@@ -96,7 +96,7 @@ const Home = () => {
                 </Slider>
                 </div>
             </div>
-            <Foother/>      
+            <Foother drak={drak}/>      
         </div>
     )
 }

@@ -8,9 +8,10 @@ import bri from "../img/navbar/bri.png"
 import lion from "../img/navbar/lionparcel.png"
 import airasis from "../img/navbar/airasia.png"
 import garuda from "../img/navbar/garuda.png"
-const Foother2 = () => {
+const Foother2 = ({drak}) => {
     return (
-        <div className="Foother-Container">
+        <div className="Foother-Container" style={{backgroundImage: drak? "linear-gradient(to right, black, white)":
+        "linear-gradient(to right, #5d0090, #f777bb)", color:drak?"white":"#5d0090"}}>
             <div className="Container-Foother2">
                 <div className="Container-Foother-1">
                     <h4>PT. ABBE MANDIRI INVESTAMA</h4>
