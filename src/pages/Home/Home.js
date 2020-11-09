@@ -55,11 +55,7 @@ const Home = () => {
                         backgroundSize:"100%",borderRadius:10}}
                         onClick={()=>HandlePush(DATA[0].text,index+1)}
 		            >
-                            <div className="center">
-                                <div className="lokasi">
-                                    <h2>{item.lokasi}</h2>
-                                </div>                               
-                            </div>
+ 
                         </div>
                     ))}
                 </Slider>
@@ -76,11 +72,7 @@ const Home = () => {
                     }}
                     onClick={()=>HandlePush(DATA[1].text,index+1)}
 		            >
-                            <div className="center">
-                                <div className="lokasi">
-                                    <h2>{item.lokasi}</h2>
-                                </div>                               
-                            </div>
+ 
                         </div>
                     ))}
                 </Slider>
@@ -99,11 +91,6 @@ const Home = () => {
 
                     }}
 		            >
-                            <div className="center">
-                                <div className="lokasi">
-                                    <h2>{item.lokasi}</h2>
-                                </div>                               
-                            </div>
                         </div>
                     ))}
                 </Slider>

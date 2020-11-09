@@ -1,4 +1,4 @@
-import g1 from "../img/contents/WEBSITE ABBE/1.jpg"
+import g1 from "../img/contents/WEBSITE ABBE/ADVENTURE.png"
 import g2 from "../img/contents/WEBSITE ABBE/2.jpg"
 import g3 from "../img/contents/WEBSITE ABBE/3.jpg"
 import g4 from "../img/contents/WEBSITE ABBE/4.jpg"
@@ -17,6 +17,10 @@ import g16 from "../img/contents/WEBSITE ABBE/16.jpg"
 import g17 from "../img/contents/WEBSITE ABBE/17.jpg"
 import g18 from "../img/contents/WEBSITE ABBE/18.jpg"
 import avanza from "../img/contents/WEBSITE ABBE/avanza.jpg"
+
+
+import bali from "../img/contents/FIX FOTO/DESTINASI BALI.png"
+import jogja from "../img/contents/FIX FOTO/DESTINASI JOGJA.png"
 export const Gambar =[
     {
         gambar:g1,
@@ -63,11 +67,11 @@ export const Gambar =[
 
 export const PROMO=[
     {
-        gambar:g4,
+        gambar:bali,
         lokasi:"BALI"
     },
     {
-        gambar:g5,
+        gambar:jogja,
         lokasi:"YOGYAKARTA"
     },
     {
