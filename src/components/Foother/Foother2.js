@@ -13,7 +13,7 @@ const Foother2 = () => {
         <div className="Foother-Container">
             <div className="Container-Foother2">
                 <div className="Container-Foother-1">
-                    <h2>PT. AB MANDIRI INVESTAMA</h2>
+                    <h4>PT. ABBE MANDIRI INVESTAMA</h4>
                     <p>Jl Seturan No 13b, CaturTunggal
                         <br/>Depok, Sleman
                         <br/>Yogyakarta - 55281
@@ -21,37 +21,37 @@ const Foother2 = () => {
                     <br/><FontAwesomeIcon icon ={faWhatsapp}/> 0274-999999999</p>
                 </div>
                 <div className="Container-Foother-2">
-                    <h2>PARTNER</h2>
-                    <div className="grid-right">
+                    <h4>PARTNER</h4>
+                    <div className="grid-left">
                         <div style={{textAlign:'right'}}>
-                            <img src={lion} style={{width:70}}/>
+                            <img src={lion} style={{width:60}}/>
                         </div>
                         <div>
-                            <img src={airasis} style={{width:90}}/>
+                            <img src={airasis} style={{width:70}}/>
                         </div>
                         <div style={{textAlign:'left'}}>
-                            <img src={garuda}/>
+                            <img src={garuda} style={{width:60}}/>
                         </div>
                     </div>
                 </div>
                 <div className="Container-Foother-3">
-                    <h2>PAYMENT METHOD</h2>
+                    <h4 style={{paddingLeft:100}}>PAYMENT METHOD</h4>
                     <div className="grid-right">
                         <div style={{textAlign:'right'}}>
-                            <img src={bca} style={{width:90}}/>
+                            <img src={bca} style={{width:60}}/>
                         </div>
                         <div>
-                            <img src={paypal}/>
+                            <img src={paypal} style={{width:50}}/>
                         </div>
                         <div style={{textAlign:'left'}}>
-                            <img src={bri} style={{width:53}}/>
+                            <img src={bri} style={{width:40}}/>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="grid-icons">
                     <div className="grid-icons-1">
-                        <h3>© 2020 PT. AB MANDIRI INVESTAMA</h3>
+                        <h5>© 2020 PT. ABBE MANDIRI INVESTAMA</h5>
                     </div>
                     <div className="grid-icons-2">
                         <FontAwesomeIcon icon={faTwitter} className="iconsx"/>

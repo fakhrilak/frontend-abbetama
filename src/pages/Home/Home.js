@@ -7,7 +7,7 @@ import {DATA} from "../PWisata/DataPwisata"
 import {useHistory} from "react-router-dom"
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
-
+import {PROMO} from "../../components/Thumnail/DataThumbnail"
 const Home = () => {
     const [count,setCount]=useState(0)
     const [A,setA]= useState(0)
@@ -37,8 +37,6 @@ const Home = () => {
         }
     }
     var kalimat = "Selamat Datang Di Abbetama Tour and Travel";
-    let tes="";
-    let i;
     
     return (
         <div className="container-home">
@@ -92,7 +90,23 @@ const Home = () => {
             <div className="grid-2">
                 <div/>
                 <div className="Container-Home">
-                    <img src={Gambar[6].gambar}/>
+                <Slider autoplay={3000}>
+	                {PROMO.map((item, index) => (
+		            <div
+                        key={index}
+                        style={{ background: `url('${item.gambar}') no-repeat center center`,
+                        backgroundSize:"100%",borderRadius:10
+
+                    }}
+		            >
+                            <div className="center">
+                                <div className="lokasi">
+                                    <h2>{item.lokasi}</h2>
+                                </div>                               
+                            </div>
+                        </div>
+                    ))}
+                </Slider>
                 </div>
             </div>
             <Foother/>      

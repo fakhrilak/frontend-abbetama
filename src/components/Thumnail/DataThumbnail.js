@@ -60,3 +60,18 @@ export const Gambar =[
          
     }
 ]
+
+export const PROMO=[
+    {
+        gambar:g4,
+        lokasi:"BALI"
+    },
+    {
+        gambar:g5,
+        lokasi:"YOGYAKARTA"
+    },
+    {
+        gambar:g17,
+        lokasi :"DIENG"
+    }
+]
