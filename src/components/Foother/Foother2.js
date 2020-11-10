@@ -18,7 +18,9 @@ const Foother2 = ({drak}) => {
                     <p>Jl Seturan No 13b, CaturTunggal
                         <br/>Depok, Sleman
                         <br/>Yogyakarta - 55281
-                        <br/><FontAwesomeIcon icon={faWhatsapp}/> 085281814883
+                        <br/><FontAwesomeIcon icon={faWhatsapp}/> <a href="https://wa.me/6281299243859" target="_blank"
+                        style={{color:drak?"white":"#5d0090",textDecoration:"none"}}
+                        >085281814883</a>
                     <br/><FontAwesomeIcon icon ={faWhatsapp}/> 0274-999999999</p>
                 </div>
                 <div className="Container-Foother-2">

@@ -8,6 +8,7 @@ import {useHistory} from "react-router-dom"
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import {PROMO} from "../../components/Thumnail/DataThumbnail"
+import ReactWhatsapp from 'react-whatsapp';
 const Home = ({drak}) => {
     const [count,setCount]=useState(0)
     const [A,setA]= useState(0)
@@ -41,6 +42,7 @@ const Home = ({drak}) => {
     return (
         <div className="container-home" style={{backgroundColor:drak ? "black":"white",
         color: drak? "white":"#5d0090"}}>
+            <ReactWhatsapp number="+62812-9924-3859" message="Hello World!!!" />
             <div>
                 <Thumbnail count={count} setCount={setCount} drak={drak}/>
             </div>
