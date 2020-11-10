@@ -61,6 +61,7 @@ const Foother2 = ({drak}) => {
                         <FontAwesomeIcon icon={faFacebook} className="iconsx"/>
                         <FontAwesomeIcon icon={faInstagram} className="iconsx"/>
                         <FontAwesomeIcon icon={faYoutube} className="iconsx"/>
+                        <FontAwesomeIcon icon={faWhatsapp} className="iconsx"/>
                     </div>                   
             </div>
             

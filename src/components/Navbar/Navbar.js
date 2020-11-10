@@ -4,7 +4,7 @@ import "./Navbar.css"
 import logo from "../../components/img/navbar/2.png"
 import pesonaindonesia from "../../components/img/navbar/pesonaindonesia.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook,faTwitter,faInstagram,faYoutube } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook,faTwitter,faInstagram,faYoutube, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 const Navbar = ({setShow,show,setDrak,drak}) => {
         const prevScrollY = useRef(0);
 
@@ -38,6 +38,7 @@ const Navbar = ({setShow,show,setDrak,drak}) => {
                 <li className="icon-navbar"><a href="https://twitter.com/FakhrilAK/" target="_blank" style={{color:drak?"white":"#5d0090"}}><FontAwesomeIcon icon={faTwitter}/></a></li>
                 <li className="icon-navbar"><a href="https://www.instagram.com/abbetama_tourtravel/" target="_blank" style={{color:drak?"white":"#5d0090"}}><FontAwesomeIcon icon={faInstagram}/></a></li>
                 <li className="icon-navbar"><a href="https://www.youtube.com/feed/my_videos/" target="_blank" style={{color:drak?"white":"#5d0090"}}><FontAwesomeIcon icon={faYoutube}/></a></li>
+                <li className="icon-navbar"><a href="https://wa.me/6281299243859/" target="_blank" style={{color:drak?"white":"#5d0090"}}><FontAwesomeIcon icon={faWhatsapp}/></a></li>
                 <li className="logo-navbar"><Link to='/'><img src={logo} style={{width:450}}/></Link></li>
             </ul>
             <ul>
